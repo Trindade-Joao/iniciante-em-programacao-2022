@@ -8,8 +8,8 @@ let tabelaJogadas = [];
 
 carregaMatriz(tabelaJogadas, '');
 
-//Função que monta a matriz vazia
-function carregaMatriz(matriz, valor) {  //Função para carregar a matriz 
+//Função que monta e carrega o valor na matriz
+function carregaMatriz(matriz, valor) {  
     for (let linha = 0; linha < 3; linha++) {
         matriz[linha] = [];
         for (let coluna = 0; coluna < 3; coluna++) {
